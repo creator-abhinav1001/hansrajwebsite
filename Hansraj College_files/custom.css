@@ -1,0 +1,147 @@
+.page-slider .carousel-item {
+    height: 350px;
+}
+.active-sidebar {
+	text-decoration: underline;
+}
+.faculty-card {
+	border-top: 1px solid #d5d4d4;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 50%;
+	display: inline-block;
+}
+.faculty-image {
+	width: 130px;
+	display: inline-block;
+	height: 170px;
+	text-align: center;
+	padding: 15px;
+}
+.faculty-image img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+	transition: 0.1s;
+	border: 1px solid #e8e8e8;
+}
+.faculty-details {
+	width: calc(100% - 206px);
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px 5px;
+}
+.faculty-details p{
+	padding: 0;
+}
+.page_content .carousel-control-prev-icon {
+   background: url('https://www.hansrajcollege.ac.in/beta/assets/front/images/prev.png');
+   background-size: contain;
+}
+.page_content .carousel-control-next-icon {
+   background: url('https://www.hansrajcollege.ac.in/beta/assets/front/images/next.png');
+   background-size: contain;
+}
+.page_content .carousel-control-next-icon, .page_content .carousel-control-prev-icon{
+    width: 30px;
+    height: 30px;
+}
+.page_content .carousel-control-prev:hover,.page_content .carousel-control-next:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+.page_content .carousel-item{max-height: 350px;text-align: center; }
+.page_content .carousel-item img{
+	max-height: 350px;width: unset;
+}
+.btn-primary:hover{
+	background-color: #b04400;
+	border-color: #b04400;
+}
+
+.btn-primary{
+	margin: 5px !important;
+}
+.downloadpdf{
+	padding: 10px 0;
+}
+.crcile-box a{
+	color: #333;
+}
+.crcile-box a:hover{
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Kruti';
+    src: url('../../ckeditor/lang/Kruti/k010.eot');
+    src: local("Kruti"), url("../../ckeditor/lang/Kruti/k010.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@media screen and (max-width: 1199px) {
+  #gallery .owl-item li a {height: 150px;}
+}
+
+@media screen and (max-width: 600px) {
+  .faculty-card{
+  	width:100%;
+  	padding-top: 5px;
+  }
+
+  .faculty-card .faculty-image{ padding:2px; width:40%; max-height:145px; }
+  .faculty-card .faculty-details{ width:58%; }
+}
+
+
+@media (min-width: 576px) {
+
+.faculty-card{
+  	width:100%;
+  	padding-top: 5px;
+  }
+
+  .faculty-card .faculty-image{ padding:2px; width:40%; max-height:145px; }
+  .faculty-card .faculty-details{ width:58%; }
+
+ }
+
+
+@media (min-width: 768px) {
+	.faculty-card{
+  	width:100%;
+  	padding-top: 5px;
+  }
+
+  .faculty-card .faculty-image{ padding:2px; width:40%; max-height:145px; }
+  .faculty-card .faculty-details{ width:58%; } }
+
+@media (min-width: 992px) {
+	.faculty-card{
+  	width:50%;
+  	padding-top: 5px;
+  }
+  .faculty-card .faculty-image{ padding:2px; width:40%; max-height:145px; }
+  .faculty-card .faculty-details{ width:58%; }
+}
+
+@media screen and (max-width: 767px) {
+.navbar-nav>li:hover{ background: #6f2e05;}
+.navbar-nav>li:hover > .nav-link.dropdown-toggle{color:#fff;}
+.navbar-nav>li {padding: 0px 0px;}
+.navbar-nav .nav-link {padding-right: 15px;padding-left: 15px;padding-top: 10px;padding-bottom: 10px;border-bottom: 1px solid rgba(255,255,255,.2);}
+.navbar-nav .nav-item .dropdown-toggle{display: flex !important;align-items: center !important;}
+.navbar-nav .nav-link.dropdown-toggle::after{margin-left: auto !important;}
+.dropdown-menu{border:none;box-shadow: none;}
+.navbar-nav .nav-item .dropdown-menu .nav-link{ padding-right: 30px; padding-left: 30px;}
+.navbar-nav .nav-item.active.dropdown > ul {border-top: 1px solid #ddd;margin-top: 0;background: #f7f7f7;}
+.navbar-nav .nav-item.active.dropdown > ul .dropdown-menu{background: #e6e6e6;}
+.navbar-nav .nav-item.active.dropdown > ul .dropdown-menu a{padding-left: 30px;}
+.navbar-nav .nav-item.active.dropdown > ul .dropdown-menu .dropdown-menu{background: #b7b7b7;}
+.navbar-nav .nav-item.active.dropdown > ul .dropdown-menu .dropdown-menu a{padding-left: 45px; color:#333;}
+/* li.dropdown:hover ul li:hover > ul { display: block;background: #e6e6e6;} */
+#gallery .owl-item li a {	height: 220px;}
+  }
