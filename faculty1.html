@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="https://www.hansrajcollege.ac.in/assets/light-gallery/js/lightgallery.js"></script>
+    <title> Faculty</title>
+
+    <style>
+        .topheader {
+            background: #efc600;
+            height: 31px;
+            line-height: 31px;
+            font-family: 'open_sanssemibold';
+            text-align: right;
+            text-decoration: none;
+
+        }
+
+        .container1>a {
+            text-decoration: none;
+            color: black;
+            font-family: sans-serif;
+            font-size: small;
+        }
+
+        a:hover {
+            color: brown;
+        }
+
+        .block2 {
+            background-color: white;
+
+            font-size: 14px;
+            line-height: 20px;
+            color: #333;
+            box-sizing: border-box;
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            flex: 0 0 50%;
+            max-width: 100%;
+            display: block !important;
+            text-align: center !important;
+        }
+
+        .block2>h1 {
+            font-size: 36px;
+            color: #b04400;
+            font-family: 'Times';
+            text-transform: uppercase;
+            margin-top: 16px;
+            font-weight: bold;
+        }
+
+        .block2 h1 {
+            color: brown;
+        }
+
+        .bg-primary {
+            background-color: #b04400 !important;
+            border-radius: 10px;
+            padding: 1px;
+
+        }
+
+        .container-fluid {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .navbar>.container{
+            background-color: #b04400;
+            border-radius: 5px;
+            font-family: poppins;
+            font-size: small;
+            color: white;
+            max-width: unset;
+            width: 100%;
+        }
+        .container {
+           
+        }
+
+        a.nav-link {
+            color: rgb(255, 255, 255);
+
+        }
+
+        li.dropdown:hover>ul {
+            display: block;
+        }
+
+        li.dropdown:hover ul li:hover>ul {
+            display: block;
+        }
+
+        .dropdown-menu {
+            top: 95%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a {}
+
+        .dropdown-menu>a {
+            display: block;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topheader">
+        <div class="container1">
+            <a href="https://www.hansrajcollege.ac.in/" title="Home">Home</a> |
+            <a href="https://www.hansrajcollege.ac.in/ignou/ignou" title="IGNOU">IGNOU</a> |
+            <a href="https://www.hansrajcollege.ac.in/nonteachingposts" title="Home">Non-Teaching Posts</a> |
+            <a href="https://www.hansrajcollege.ac.in//obe" title="Home">Open Book Examinations 2021</a> |
+            <a href="https://www.hansrajcollege.ac.in/sign-in" title="Login">Login</a> |
+            <a href="https://www.hansrajcollege.ac.in/contact" title="Login">Contact Us</a>
+        </div>
+    </div>
+    <div class="block2">
+        <h1>Hansraj College</h1>
+        <p>University of Delhi</p>
+        <p>NAAC Grade A+ with CGPA 3.62</p>
+    </div>
+    <div class></div>
+    <div class="container">
+        <!-- ============= COMPONENT ============== -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> About </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item active"> <a class="nav-link" href="#">Facilities</a> </li>
+                        <li class="nav-item"><a class="nav-link" href="#"> Administration</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Admissions </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Academics</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Student Corner</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> IQAC</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> Research and
+                                Innovation</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> ICC</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown"> NIRF</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Submenu item 1</a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 2 </a></li>
+                                <li><a class="dropdown-item" href="#"> Submenu item 3 </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> <!-- navbar-collapse.// -->
+            </div> <!-- container-fluid.// -->
+        </nav>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav" url-title="about">
+                        <li class="nav-item active dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" title="About">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/thecollege">The
+                                        College</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/historical">Historical
+                                        Perspective</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/chairman">Chairman's
+                                        Message</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/about/principaldesk">Principal's Desk</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/mission">Mission</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/about/governingbody">Governing Body</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/managingcommittee">DAV
+                                        Management Committee</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/about/committees">Committees</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/about/staffassociation">Staff
+                                        Association</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/retired/botany">Former
+                                        Colleagues</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/about/annualreport">Annual
+                                        Report</a></li>
+                                <!--<li><a tabindex="-1" href="#">CSS</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="test" tabindex="-1" href="#">New dropdown <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                        <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+                                        <li class="dropdown-submenu">
+                                        <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                          <li><a href="#">3rd level dropdown</a></li>
+                                          <li><a href="#">3rd level dropdown</a></li>
+                                        </ul>
+                                        </li>
+                                    </ul>
+                                </li>-->
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://www.hansrajcollege.ac.in/facilities/facilities_campus">Facilities</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://www.hansrajcollege.ac.in/administration">Administration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"
+                                href="https://www.hansrajcollege.ac.in/admission/admissionupdates">Admissions</a>
+                        </li>
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)">Academics</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <!--<a class="test" tabindex="-1" href="#">Courses <span class="caret"></span></a>-->
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Science <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a
+                                                        href="http://www.hansrajcollege.ac.in/academics/courses/anthropology.php">Anthropology
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/1/course">Botany
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/3/course">Chemistry
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/2/course">Computer
+                                                        Science (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/4/course">Electronics
+                                                        (Hons)</a></li>
+                                                <li><a
+                                                        href="http://www.hansrajcollege.ac.in/academics/courses/geology.php">Geology
+                                                        (Hons)</a></li>
+                                                <li><a
+                                                        href="http://www.hansrajcollege.ac.in/academics/courses/lifesciences.php">Life
+                                                        Sciences</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/5/course">Mathematics
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/6/course">Physics
+                                                        (Hons)</a></li>
+                                                <li><a
+                                                        href="http://www.hansrajcollege.ac.in/academics/courses/physicalsciences.php">Physical
+                                                        Sciences</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/7/course">Zoology
+                                                        (Hons)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Arts &amp; Commerce <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a
+                                                        href="http://www.hansrajcollege.ac.in/academics/courses/baprog.php">B.
+                                                        A. Prog.</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/8/course">B.
+                                                        Com (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/9/course">Economics
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/10/course">English
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/11/course">Hindi
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/12/course">History
+                                                        (Hons)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/14/course">Sanskrit
+                                                        (Hons)</a></li>
+                                                <li><a href="">M.Com</a></li>
+                                                <li><a href="">MA (Hindi)</a></li>
+                                                <li><a href="">MA (History)</a></li>
+                                                <li><a href="">MA (Sanskrit)</a></li>
+                                                <li><a href="">MA (English)</a></li>
+                                                <li><a href="">MSc (Anthropology)</a></li>
+                                                <li><a href="">MSc (Botany)</a></li>
+                                                <li><a href="">MSc (Chemistry)</a></li>
+                                                <li><a href="">MSc (Mathematics)</a></li>
+                                                <li><a href="">MSc (Geology)</a></li>
+                                                <li><a href="">MSc (Zoology)</a></li>
+                                                <li><a href="">MSc (Physics)</a></li>
+                                                <li><a href="">MSc (Operational Research)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/13/course">Philosophy
+                                                        (Prog)</a></li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/13/course">Philosophy
+                                                        (Hons)</a></li>
+                                            </ul>
+                                        </li>
+
+
+                                        <li class="dropdown-submenu"><a href="#">Add-on Courses <span
+                                                    class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/academics/courses/filmmedia">Films
+                                                        &amp; Media</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a
+                                                href="https://www.hansrajcollege.ac.in/academics/courses/languagecourses">Language
+                                                Courses</a></li>
+                                        <li><a href="https://www.hansrajcollege.ac.in/academics/courses/noncollegiate">Non
+                                                Collegiate</a></li>
+
+                                    </ul>
+
+
+
+
+
+                                </li>
+                                <li class="dropdown-submenu"><a href="#">Departments <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Science <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/1">Botany</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/3">Chemistry</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/2">Computer
+                                                        Science</a></li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/4">Electronics</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/5">Mathematics</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/6">Physics</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/7">Zoology</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Arts &amp; Commerce <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/8">Commerce</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/9">Economics</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/10">English</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/11">Hindi</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/12">History</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/13">Philosophy</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/15">Physical
+                                                        Education</a></li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/14">Sanskrit</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu"><a href="#">Faculty <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Science <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/1/faculty">Botany</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/3/faculty">Chemistry</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/2/faculty">Computer
+                                                        Science</a></li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/4/faculty">Electronics</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/5/faculty">Mathematics</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/6/faculty">Physics</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/7/faculty">Zoology</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Arts &amp; Commerce <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/8/faculty">Commerce</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/9/faculty">Economics</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/10/faculty">English</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/11/faculty">Hindi</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/12/faculty">History</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/13/faculty">Philosophy</a>
+                                                </li>
+                                                <li><a href="https://www.hansrajcollege.ac.in/department/15/faculty">Physical
+                                                        Education</a></li>
+                                                <li><a
+                                                        href="https://www.hansrajcollege.ac.in/department/14/faculty">Sanskrit</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="https://www.hansrajcollege.ac.in/academics/coursesoffered">
+                                        Courses Offered
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank"
+                                        href="https://www.hansrajcollege.ac.in/files/academic_calendar/09082021_Academic-Calender.pdf">
+                                        Academic Calendar
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.hansrajcollege.ac.in/academics/addoncourses">
+                                        Add-on Courses
+                                    </a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)"
+                                title="Student's Corner">Student's Corner</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/studentcouncil">Student
+                                        Council</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/placementcell">Placements</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/iasclasses">IAS
+                                        Classes</a></li>
+                                <li><a tabindex="-1" href="http://hrcaa.in/" target="_blank">Alumni</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/studentactivity/nss">NSS</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/studentactivity/ncc">NCC</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/societies">Societies</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/studentactivity/eca">ECA</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/scholarships">Scholarships</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/collegemagazines">Magazines</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/elearning">E-learning</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/studentactivity/ncweb">NCWEB
+                                        Online Study Material</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/studentactivity/studentlearningcentre">Student
+                                        Learning Centre</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/student-progression">Student
+                                        Progression Form</a></li>
+
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" title="IQAC">IQAC</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/members">Members</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/role">Role</a></li>
+                                <li><a tabindex="-1" target="_blank"
+                                        href="https://www.hansrajcollege.ac.in/files/IQAC_meeting minutes_2019-20.pdf">Minutes
+                                        of Meeting 19-20</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/aqar">AQAR</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/feedback">Feedback</a>
+                                </li>
+                                <li><a tabindex="-1" target="_blank"
+                                        href="https://www.hansrajcollege.ac.in/files/iqac/Program Outcomes 19-1-2020.pdf">Program
+                                        Outcomes</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/bestpractices">Best
+                                        Practices</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/distinctiveness">Our
+                                        Distinctiveness</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iqac/naacssr">NAAC SSR</a>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/iqac/academic_calendar">Academic
+                                        Calendar</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" title="IQAC">Research &amp;
+                                Innovation</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a class="test" tabindex="-1" href="#">Projects<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a tabindex="-1"
+                                                href="https://www.hansrajcollege.ac.in/researchinnovation/projects/sponsoredprojects">Sponsored
+                                                Projects</a></li>
+                                        <li><a tabindex="-1"
+                                                href="https://www.hansrajcollege.ac.in/researchinnovation/projects/innovationprojects">Innovation
+                                                Projects</a></li>
+                                    </ul>
+                                </li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/researchinnovation/dbtstarcollege">DBT
+                                        Star College</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/researchinnovation/researchguidance">Research
+                                        Guidance</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/researchinnovation/researchjournal">Research
+                                        Journal</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/researchinnovation/undergradresearch">Undergraduate
+                                        Research</a></li>
+                                <li><a tabindex="-1"
+                                        href="https://www.hansrajcollege.ac.in/researchinnovation/research/">Research</a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" title="ICC">ICC</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/about-icc">About ICC</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/focus">Focus</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/members">Members</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/functions">Functions</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/meeting-minutes">Meeting
+                                        Minutes</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/annual-calendar">Annual
+                                        Calendar</a></li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/iic/call-for-proposals">Call
+                                        For Proposals</a></li>
+
+                            </ul>
+
+                        </li>
+
+                        <li class="nav-item active dropdown">
+
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" title="NIRF">NIRF</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/nirf/nirf2018">NIRF 2018</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/nirf/nirf2019">NIRF 2019</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/nirf/nirf2020">NIRF 2020</a>
+                                </li>
+                                <li><a tabindex="-1" href="https://www.hansrajcollege.ac.in/nirf/nirf2021">NIRF 2021</a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section id="left-side1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-12">
+                    <div class="left-side1">
+        <h2>
+            Economics    </h2>
+        
+        <ul>
+            <li><a  href="https://www.hansrajcollege.ac.in/department/9">About</a></li>
+            <li><a  href="https://www.hansrajcollege.ac.in/department/9/course">Courses</a></li>
+            <li><a  class="active-sidebar"  href="https://www.hansrajcollege.ac.in/department/9/faculty">Faculty</a></li>
+            <li><a  class="active-sidebar"  href="#">Societies</a></li>
+            
+                    
+            <li><a  href="https://www.hansrajcollege.ac.in/department/9/achivements">Awards & Recognition
+            </a></li>
+    
+        </ul>
+    </div>
+               
+                </div>
+    
+                <div class="col-md-8 col-sm-12 col-12">
+                    <div class="page_content">
+                        <div class="aboutbox heading">
+                        
+           
+                        
+                            
+    
+    
+                             <!-- FOR COURSE DETAIL --->
+            
+    
+    
+             <!-- FOR FACULTY DETAIL --->
+                    <div class="face_campus_box">
+                <h2>
+                    Faculty
+                </h2>
+                <div class="faculty">
+                    <div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/profile_pics/59.jpg" data-src="https://www.hansrajcollege.ac.in/files/profile_pics/59.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Alka  Kacker" href="https://www.hansrajcollege.ac.in/faculty/59" href="javascript:void(0)">
+                                <h6>Alka  Kacker</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Associate Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Phil.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/60/User-Image-072b030ba126b2f4b2374f342be9ed44-5591b51cc3711a2924da6c63cf14d1a7.JPG">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Shailu Singh" href="https://www.hansrajcollege.ac.in/faculty/60" href="javascript:void(0)">
+                                <h6>Shailu Singh</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant  Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. PhD</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/profile_pics/61.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Hema  Kapur" href="https://www.hansrajcollege.ac.in/faculty/61" href="javascript:void(0)">
+                                <h6>Hema  Kapur</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Associate Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Phil.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/62/User-Image-44f683a84163b3523afe57c2e008bc8c-4782cec3510314a8a57a15f855e96cb3.JPG">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Anand Mittal" href="https://www.hansrajcollege.ac.in/faculty/62" href="javascript:void(0)">
+                                <h6>Anand Mittal</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Associate Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> Ph.D., M.A.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/63/User-Image-d41d8cd98f00b204e9800998ecf8427e.JPG">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Animesh  Naskar" href="https://www.hansrajcollege.ac.in/faculty/63" href="javascript:void(0)">
+                                <h6>Animesh  Naskar</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Phil. M.Sc. PhD</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/64/User-Image-ea5d2f1c4608232e07d3aa3d998e5135-df635eafc8f274b3193da3e14ad92a31.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Kapila Mallah" href="https://www.hansrajcollege.ac.in/faculty/64" href="javascript:void(0)">
+                                <h6>Kapila Mallah</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Associate Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Phil. M.Sc</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/65/User-Image-fc490ca45c00b1249bbe3554a4fdf6fb-74e17e9c1632ba16f13466f1ce9e5017.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Anjali  Khurana" href="https://www.hansrajcollege.ac.in/faculty/65" href="javascript:void(0)">
+                                <h6>Anjali  Khurana</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/66/User-Image-d41d8cd98f00b204e9800998ecf8427e.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="K. Sucharita Khuntia" href="https://www.hansrajcollege.ac.in/faculty/66" href="javascript:void(0)">
+                                <h6>K. Sucharita Khuntia</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Phil.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/67/User-Image-735b90b4568125ed6c3f678819b6e058-ab1036ecf0f9e8871d77b024fdd2ca40.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Simran  Sethi" href="https://www.hansrajcollege.ac.in/faculty/67" href="javascript:void(0)">
+                                <h6>Simran  Sethi</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/68/User-Image-a3f390d88e4c41f2747bfa2f1b5f87db-e524c1bd188e6c5059e4d4eaa93a3b7a.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Sonam" href="https://www.hansrajcollege.ac.in/faculty/68" href="javascript:void(0)">
+                                <h6>Sonam</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/69/User-Image-14bfa6bb14875e45bba028a21ed38046-1f0e21ebe4466fb4b683381f8685c4f5.jpg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Madhavi Moni K" href="https://www.hansrajcollege.ac.in/faculty/69" href="javascript:void(0)">
+                                <h6>Madhavi Moni K</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.A. M.Sc.</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/323/User-Image-bc6dc48b743dc5d013b1abaebd2faed2-a0fab29f7f5bc740e3e755d435fef6d8.jpeg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Naresh C. Malik" href="https://www.hansrajcollege.ac.in/faculty/323" href="javascript:void(0)">
+                                <h6>Naresh C. Malik</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> Ph.D. continuing</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/324/User-Image-f2fc990265c712c49d51a18a32b39f0c-8af16f5a238907fd74a559ae9976d3a9.jpeg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Jasica Chakma" href="https://www.hansrajcollege.ac.in/faculty/324" href="javascript:void(0)">
+                                <h6>Jasica Chakma</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> MPhil</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/325/User-Image-89f0fd5c927d466d6ec9a21b9ac34ffa-ac25698087aa78ffb84a9f6bef377fe9.jpeg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="Anurag Kakkar" href="https://www.hansrajcollege.ac.in/faculty/325" href="javascript:void(0)">
+                                <h6>Anurag Kakkar</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> M.Phil</p>
+                            
+                        </div>
+                    </div><div class="faculty-card">
+                        <div class="faculty-image">
+                            <img src="https://www.hansrajcollege.ac.in/files/userImg/353/User-Image-138bb0696595b338afbab333c555292a-4326c7e09b91f3e6eb25b5cf824089d1.jpeg">
+                        </div>
+                        <div class="faculty-details">
+                            <a title="K Varsha" href="https://www.hansrajcollege.ac.in/faculty/353" href="javascript:void(0)">
+                                <h6>K Varsha</h6>
+                            </a>
+                            <p style="margin-top: -5px;"><i>Assistant Professor</i></p>
+                            <p><i class="fa fa-graduation-cap"></i> BA (Hons) Eco 2010, M.A. (Eco)-2012, Mphil-2019</p>
+                            
+                        </div>
+                    </div>                 </ul>
+                </div>
+                
+                <div style="clear:both;"></div>
+
+
+
+
+
+
+
+
+                <!-- FOR AWARDS AND ACHIVEMENTS DETAIL --->
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
